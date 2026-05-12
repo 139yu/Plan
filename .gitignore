@@ -1,0 +1,65 @@
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+NuGet.Config
+
+## Visual Studio
+.vs/
+*.sln.DotSettings.user
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+_ReSharper*/
+*.[Rr]e[Ss]harper
+[Tt]eam[Cc]ity*
+
+## JetBrains Rider
+.idea/
+*.sln.DotSettings.user
+
+## VS Code
+.vscode/
+
+## MSTest
+*.trx
+*.results.xml
+TestResults/
+
+## .NET Core / .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+## ASP.NET
+*.pubxml
+*.pubxml.user
+*.azurePubxml
+!**/Scripts/WebHooks/Dev
+
+## Windows
+Thumbs.db
+Desktop.ini
+
+## macOS
+.DS_Store
